@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doacao-sangue</title>
+</head>
+<body>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cadastro de Doadores</h1>
+
+        <form id="formDoacao">
+            <input type="text" id="nome" placeholder="Nome completo" required>
+
+            <input type="email" id="email" placeholder="Email" required>
+
+            <input type="number" id="idade" placeholder="Idade" required>
+
+            <input type="number" id="peso" placeholder="Peso (kg)" required>
+
+            <select id="tipoSanguineo" required>
+                <option value="">Selecione o tipo sanguíneo</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+
+            <input type="text" id="telefone" placeholder="Telefone (somente números)" required>
+
+            <input type="text" id="cidade" placeholder="Cidade" required>
+
+            <input type="text" id="estado" placeholder="Estado" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <p id="mensagem"></p>
+
+        <div id="listaDoadores"></div>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+</html>
