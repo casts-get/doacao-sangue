@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e21212;
+}
+
+.container {
+    width: 400px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input, select, button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #e05f5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ce0909;
+}
+
+#mensagem {
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+.doador {
+    background: #da9494;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
