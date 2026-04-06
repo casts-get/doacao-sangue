@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #e21212;
+  background:url("assets/images.jfif")
 }
 
 .container {
@@ -45,3 +46,4 @@ button:hover {
     margin-top: 10px;
     border-radius: 5px;
 }
+
